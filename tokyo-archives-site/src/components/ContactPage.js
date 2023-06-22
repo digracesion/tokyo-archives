@@ -1,32 +1,46 @@
 import { Parallax } from 'react-parallax';
-import { Button, Input, InputGroup } from 'reactstrap';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 import img from '../img/background/bg4.JPG';
 
-const ContactPage = () => (
+const ContactPage = () => {
+
+    const contactForm = useRef();
+
+    function sendEmail(e){
+        e.preventDefault();
+    
+        emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, contactForm.current, process.env.PUBLIC_KEY)
+            .then((result) => {
+                console.log(result);
+            }, (error) => {
+                console.error(error);
+            });
+    };
     <Parallax classname='image' blur={10} bgImage={img} bgImageAlt="Contact Page" strength={800}>
         <div classname='content'>
             <p>
                 Have a question or want to get involved? Contact us today.
             </p>
 
-            <form onSubmit={this.handleSubmit}>
-                <InputGroup>
-                    <label>Name:</label>
-                    <Input type='text' name='name'/>
-                </InputGroup>
-                <InputGroup>
-                    <label>Email Address:</label>
-                    <Input type='email' name='email@service.com'/>
-                </InputGroup>
-                <InputGroup>
-                    <label>Message:</label>
-                    <Input type='textArea' name='Message'/>
-                </InputGroup>
-                <Button type='submit' name='Submit' value='Submit'></Button>
+            <form ref={contactForm} onSubmit={sendEmail}>
+                    <label>Name:
+                        <input type='text' name='name'/>
+                    </label>
+                   
+                    <label>Email Address:
+                        <input type='email' name='email@service.com'/>
+                    </label>
+                    
+                    <label>Message:
+                        <textarea type='textarea' name='Message'/>
+                    </label>
+                <input type='submit' name='Submit' value='Submit'/>
             </form>
         </div>
     </Parallax>
-);
+
+};
 
 export default ContactPage;
