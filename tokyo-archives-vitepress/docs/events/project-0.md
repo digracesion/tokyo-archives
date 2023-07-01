@@ -20,7 +20,7 @@ prev:
 
 *A chance to experience a studio photoshoot with professional models, a makeup artist, and official lighting equipment. Concepts have been curated beforehand, so just come with your camera to shoot and have fun with it!*
 
-![pics](../img/events/project-0/GRY00465.JPG)
+<!-- ![pics](../img/events/project-0/GRY00465.JPG)
 
 ![pics](../img/events/project-0/GRY00466.JPG)
 
@@ -52,4 +52,4 @@ prev:
 
 ![pics](../img/events/project-0/GRY00613.JPG)
 
-![pics](../img/events/project-0/GRY01523.JPG)
+![pics](../img/events/project-0/GRY01523.JPG) -->
