@@ -15,7 +15,7 @@ import {
 
 const members = [
   {
-    avatar: '../img/team/austin.png',
+    avatar: '/img/team/austin.png',
     name: 'Austin',
     title: 'Staff',
     links: [
@@ -29,7 +29,7 @@ const members = [
     ]
   },
   {
-    avatar: '../img/team/aziz.png',
+    avatar: '/img/team/aziz.png',
     name: 'Aziz',
     title: 'Staff',
     links: [
@@ -38,7 +38,7 @@ const members = [
     ]
   },
   {
-    avatar: '../img/team/grace.png',
+    avatar: '/img/team/grace.png',
     name: 'Grace',
     title: 'Staff',
     links: [
@@ -52,7 +52,7 @@ const members = [
     ]
   },
   {
-    avatar: '../img/team/jaida.png',
+    avatar: '/img/team/jaida.png',
     name: 'Jaida',
     title: 'Staff',
     links: [
@@ -65,7 +65,7 @@ const members = [
     ]
   },
   {
-    avatar: '../img/team/lilian.png',
+    avatar: '/img/team/lilian.png',
     name: 'Lilian/Yurina',
     title: 'Staff',
     links: [
@@ -74,7 +74,7 @@ const members = [
     ]
   },
   {
-    avatar: '../img/team/linoa.png',
+    avatar: '/img/team/linoa.png',
     name: 'Linoa',
     title: 'Staff',
     links: [
@@ -83,7 +83,7 @@ const members = [
     ]
   },
   {
-    avatar: '../img/team/lou.png',
+    avatar: '/img/team/lou.png',
     name: 'Lou',
     title: 'Staff',
     links: [
@@ -92,7 +92,7 @@ const members = [
     ]
   },
   {
-    avatar: '../img/team/sherry.png',
+    avatar: '/img/team/sherry.png',
     name: 'Sherry',
     title: 'Staff',
     links: [

@@ -6,7 +6,7 @@ hero:
   text: "Official Website"
   tagline: Framing memories, crafting stories, building community.
   image:
-    src: ./img/logo.png
+    src: /img/logo.png
     alt: Tokyo Archives Logo
   actions:
     - theme: brand
