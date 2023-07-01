@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
 const teamSideBar = [{ text: 'Meet the team', link: '/about/team' }];
 const project0SideBar  = [{ text: 'Project 0', link: '/events/project-0' }];
