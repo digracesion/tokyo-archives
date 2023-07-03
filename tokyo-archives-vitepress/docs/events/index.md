@@ -3,7 +3,7 @@ layout: doc
 ---
 # Events
 
-## [Project 0](./project-0.md)
+## [Project 0](./project-0)
 
 **MORE COMING SOON :fire:**
 
